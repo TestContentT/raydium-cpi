@@ -395,7 +395,6 @@ pub struct OpenPositionV2<'info> {
     pub associated_token_program: Program<'info, AssociatedToken>,
 
     /// Program to create NFT metadata
-    /// CHECK: Metadata program address constraint applied
     pub metadata_program: Program<'info, Metadata>,
     /// Program to create mint account and mint tokens
     pub token_program_2022: Program<'info, Token2022>,
